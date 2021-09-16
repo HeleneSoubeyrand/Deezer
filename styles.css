@@ -20,10 +20,6 @@ p {
     display: flex;
 }
 
-.contain {
-    padding: 20px 60px;
-}
-
 .justify-center {
     justify-content: center;
 }
@@ -117,8 +113,9 @@ section {
 }
 
 .btn-blackwhite {
+    background-color: white;
     padding: 10px 30px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     font-weight: bold;
     font-size: 12px;
@@ -152,54 +149,107 @@ header nav button{
     margin: 0 10px;
 }
 
+
 /* Télécharger */
 
+.telecharger {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
 .txt-telecharger {
-   margin: 50px 50px;
+   justify-content: center;
+   align-items: center;
+   width: 40%;
+   margin-right: 40px;
+   margin-top: 40px;
 }
 
 .btn-telecharger {
     display: flex;
     justify-content: space-between;
-    padding-right: 100px;
+    padding-right: 80px;
+}
+
+.img-telecharger{
+    overflow: hidden;
 }
 
 .image-hero {
-    width: 100px;
-    overflow: hidden;
+    height: 120%;
+    width: auto;
 }
 
 
 /* Présentation */
 
+.presentation {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
 .img-phone {
-    width: 40%;
+    width: 200px;
     height: auto;
 }
 
-.txt-presentation {
+.bloc-txt-presentation {
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
     flex-direction: row;
-    border: 1px solid black;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
-.txt-presentation .paragraphe {
+.bloc-txt-presentation .paragraphe {
     display: flex;
+}
+
+.txt-presentation {
+    padding-right: 50px ;
 }
 
 .txt-presentation h2 {
     flex-basis: 100%;
+    align-items: flex-start;
+}
+
+/* Red Presentation */
+
+.red-section {
+    background-color: #ef5466;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.red-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medias-logos {
+    height: 20px;
+    filter: brightness(0) invert(1);
 }
 
 
 /* Offres */
 
+.offres {
+    margin-top: 80px;
+}
+
 .Offres-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 60px 0px;
 }
 
 .box {
@@ -221,12 +271,10 @@ header nav button{
     list-style-type: none;
 }
 
-
-
 .other-offers {
     background: #f9f9f9;
     margin: 10px 0px;
-    padding: 5px 40px;
+    padding: 0px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -242,14 +290,17 @@ header nav button{
 footer {
     background-color: black;
     color: white;
-    padding: 40px 40px;
+    padding: 50px 100px;
 }
-.btn-footer {
+
+.btn-footer-ensemble {
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-  
+    justify-content: center;
 }
+
+.btn-footer {
+    margin: 0px 5px;
+} 
 
 .footer-list {
     display: flex;
