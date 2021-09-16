@@ -10,50 +10,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
 
-  <!-- COULEURS
-  - Rouge: #ef5466
-  - Bleu: #2d96c8
-  - Gris clair: #f9f9f9
-  - Gris foncé: #8e8e94 -->
 
   <body>
 
      <!--Header-->
       <header>
-        <img class="logo" src="img/logo.png" />
+        <img src="img/logo.png" />
         <nav>
             <a href="#">Télécharger</a>
             <a href="#">Offres</a>
-            <button>Connexion</button>
-            <button>Inscription</button>
+            <button type="button" class="btn-bluewhite">Connexion</button>
+            <button type="button" class="btn-blue">Inscription</button>
         </nav>
       </header>
 
     <!--Télécharger-->
-      <section id="Télécharger">
+      <section class="flex">
+        <div class="txt-telecharger">
           <h1>Vos émotions méritent d'avoir leur musique.</h1>
-          <h3>Profitez de 3 mois offerts pour essayer Deezer Premium*</h3>
-          <button class="red-button">Dezer Premium</button>
-          <button class="white-button">Deezer gratuit</button>
-          <img class="image hero" src="img/hero.png" />
+          <h3 class="txt-red">Profitez de 3 mois offerts pour essayer Deezer Premium*</h3>
+          <button class="btn-red">Dezer Premium</button>
+          <button class="btn-redwhite">Deezer gratuit</button>
+        </div>
+          <img class="image-hero" src="img/hero.png" />
       </section>
 
-    <!--Présentation-->
-      <section>
-          <img class="flex" src="img/phone.jpg" />
-          <h2>Deezer, c'est quoi?</h2>
-          <h4>Toute votre musique dans votre poche.</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
+    <!--Presentation-->
+      <section class="flex">
+          <img class="img-phone" src="img/phone.jpg" />
+        <div class="txt-presentation">
+            <h2>Deezer, c'est quoi?</h2>
+            <h4>Toute votre musique dans votre poche.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
               Sed condimentum enim et imperdiet sollicitudin. </p>
-          <h4>Créer votre bibliothèque musicale.</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
+            <h4>Créer votre bibliothèque musicale.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
+             Sed condimentum enim et imperdiet sollicitudin. </p>
+            <h4>Pas de WIFI? Pas de problème.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
             Sed condimentum enim et imperdiet sollicitudin. </p>
-          <h4>Pas de WIFI? Pas de problème.</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
+            <h4>Un Deezer qui vous ressemble.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
             Sed condimentum enim et imperdiet sollicitudin. </p>
-          <h4>Un Deezer qui vous ressemble.</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat vitae risus a condimentum. 
-            Sed condimentum enim et imperdiet sollicitudin. </p>
+        </div>
       </section>
 
     <!--Red section-->
