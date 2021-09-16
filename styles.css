@@ -17,15 +17,26 @@ body {
 
 section {
     justify-content: center;
+    padding: 5px 10%;
 }
 
 .txt-red {
     color:#ef5466 ;
 }
 
+.txt-grey {
+    color:#8e8e94 ;
+}
+
 .background-grey {
     background-color: #f9f9f9;
 }
+
+.background-red {
+    background-color: #ef5466;
+    color: white;
+}
+
 
 /* Header */
 
@@ -106,9 +117,40 @@ header nav button{
     color: #ef5466;
 }
 
+
 /* Présentation */
 
 .img-phone {
     width: 40%;
     height: auto;
+}
+
+
+/* Offres */
+
+.others-offers {
+    background-color: #f9f9f9;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer ul li{
+    margin: 20px 10px;
 }
