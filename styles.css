@@ -1,4 +1,114 @@
+/* COULEURS
+  - Rouge: #ef5466
+  - Bleu: #2d96c8
+  - Gris clair: #f9f9f9
+  - Gris foncé: #8e8e94 */
+
+
+/* Global */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
+section {
+    justify-content: center;
+}
+
+.txt-red {
+    color:#ef5466 ;
+}
+
+.background-grey {
+    background-color: #f9f9f9;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 20px;
+    border-bottom: 1px solid #8e8e94;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+header nav button{
+    margin: 0 10px;
+}
+
+.btn-bluewhite {
+    background-color: white;
+    padding: 5px 20px;
+    border: 2px solid #2d96c8;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #2d96c8;
+}
+
+.btn-blue {
+    background-color: #2d96c8;
+    padding: 5px 20px;
+    border: 1px solid #2d96c8;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+/* Télécharger */
+
+.txt-telecharger {
+   margin: 50px 50px;
+}
+
+.image-hero {
+    width: 40%;
+    height: auto;
+}
+
+.btn-red {
+    background-color: #ef5466;
+    padding: 10px 30px;
+    border: 1px solid #ef5466;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.btn-redwhite {
+    background-color: white;
+    padding: 10px 30px;
+    border: 1px solid #ef5466;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ef5466;
+}
+
+/* Présentation */
+
+.img-phone {
+    width: 40%;
+    height: auto;
+}
