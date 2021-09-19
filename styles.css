@@ -156,6 +156,7 @@ header nav button{
     display: flex;
     justify-content: center;
     height: 300px;
+    padding-left: 120px;
 }
 
 .txt-telecharger {
@@ -166,10 +167,13 @@ header nav button{
    margin-top: 40px;
 }
 
-.btn-telecharger {
+.line-btn-telecharger {
     display: flex;
-    justify-content: space-between;
-    padding-right: 80px;
+    padding-top: 10px;
+}
+
+.btn-telecharger {
+    margin-right: 20px;
 }
 
 .img-telecharger{
@@ -177,8 +181,7 @@ header nav button{
 }
 
 .image-hero {
-    height: 120%;
-    width: auto;
+    height: 500px;
 }
 
 
@@ -187,7 +190,8 @@ header nav button{
 .presentation {
     display: flex;
     justify-content: center;
-    padding: 50px 100px;
+    padding: 50px 180px;
+
 }
 
 .img-phone {
@@ -200,7 +204,7 @@ header nav button{
     flex-wrap: wrap;
     align-content: flex-start;
     flex-direction: row;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .bloc-txt-presentation .paragraphe {
@@ -224,18 +228,24 @@ header nav button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 100px;
+    padding: 20px 120px;
 }
 
 .red-logos {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 40px;
 }
 
 .medias-logos {
-    height: 20px;
+    height: 40px;
     filter: brightness(0) invert(1);
+    margin-right: 20px;
+}
+
+.red-section .txt {
+
 }
 
 
@@ -243,38 +253,41 @@ header nav button{
 
 .offres {
     margin-top: 80px;
-}
-
-.Offres-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 60px 0px;
+    margin-bottom: 50px;
 }
 
 .box {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 20px 0;
+}
+
+.box-contain {
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
     height: 400px;
     width: auto;
     margin: 0px 2px;
-    padding: 10px 10px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.box ul {
+
+.box-contain ul {
     font-weight: bold;
     font-size: 10px;
     text-align: left;
     list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 50px;
 }
 
 .other-offers {
     background: #f9f9f9;
     margin: 10px 0px;
-    padding: 0px 100px;
+    padding: 0px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
